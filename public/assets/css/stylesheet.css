@@ -1,0 +1,97 @@
+/* page css start from here */
+*{box-sizing: border-box;}
+p{margin-bottom: 15px;}
+
+.poppins{font-family: 'Poppins', sans-serif;}
+.common_btn{transition: all 0.5s ease-in-out;color: #fff; background-color: #CA333B; border:1px solid #CA333B}
+.common_btn:hover{color: #CA333B; background-color: #fff;}
+header{position:absolute; top:0px; left:0px; width: 100%; z-index: 2}
+.header_wrapper{max-width:1470px; width:100%; margin:0 auto; padding:15px;}
+.header_row{width:100%; display:flex; flex-wrap:wrap;align-items: center;justify-content: space-between;}
+nav ul{margin:0px; padding:0px; list-style-type:none;display: flex;justify-content: center;}
+nav ul li{float:left; padding: 0 18px;}
+nav ul li a{color:#fff; font-size:13px;text-transform:uppercase; font-weight: 600;}
+.head_cont{display: flex;justify-content: right;}
+.get_purposal{padding-right: 15px;}
+.get_purposal a{font-size:14px; font-weight:600; color:#fff; background-color: #CA333B; padding: 12px 10px; border:1px solid #CA333B}
+.get_purposal a:hover{background-color: #fff;color:#CA333B}
+.head_phone a{font-size:18px; font-weight:600;  padding:10px; color:#fff}
+.head_phone a i{padding-right:5px; font-size: 16px;;}
+
+.home_banner{width: 100%;overflow: hidden;}
+.hmebn_slider{background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; height:100vh;}
+.hme_bnr_container{max-width:1470px; width:100%; margin:0 auto;position: relative; height: 100%; padding: 0 15px;}
+.hme_brn_wrap{position: absolute; top:50%; left:15px; z-index: 1;transform: translate(0, -50%); width: 100%; }
+.hme_bnr_container h2{font-size: 52px; font-weight: 500; line-height: 60px; color:#fff; padding-bottom: 22px;}
+.hme_bnr_label{color:#AAA6A6;font-size: 16px; font-weight: 500; line-height: 20px;}
+.hme_bnr_desc{font-size: 16px; color: #fff; line-height: 24px; font-weight: 600; padding: 38px 0 24px 0;}
+.hme_bnr_btn{padding: 10px 0;}
+.hme_bnr_btn a{font-size: 14px; padding:14px 29px;}
+.home_banner_row{margin: 0!important;}
+.home_banner_row .slick-dots li{margin: 0 8px;}
+.home_banner_row .slick-dots li button:before{display: none;}
+.home_banner_row .slick-dots li button{background-color: #615052; width: 24px; height: 5px;border-radius: 12px; padding: 0;}
+.home_banner_row .slick-dots li.slick-active button{background-color: #fff;}
+.home_banner_row .slick-dots{left: 30px;width: auto; bottom: 95px;}
+
+.outer_wrapper{width: 100%;margin:0 auto; max-width: 1170px; padding: 0 15px;}
+
+.heading{font-weight: 600; text-align: center;font-size: 32px; line-height: 48px; color: #000; padding: 70px 0 40px 0;font-family: 'Poppins', sans-serif; clear:both}
+
+/*Our Expertise */
+.expt_section{width:100%; display: flex; flex-wrap: wrap;}
+.expt_col{width: 33.33%; padding: 0 0 47px 85px; position:relative;}
+.expt_img{position:absolute; top:0px; left:0px}
+.expt_label{color:#D53044; font-size:12px; font-weight: 600; line-height: 18px; text-transform: uppercase;}
+.expt_title a{color:#000; font-size:18px; font-weight: 600; line-height:27px; text-transform: uppercase;padding:3px 0 7px 0;}
+.expt_col:hover .expt_title a{color:#D53044;}
+.expt_desc{font-size: 14px; line-height: 22px;}
+
+/* why us section */
+.whyus_section{background-color: #F2F2F2; float: left; width: 100%; margin: 70px 0 0 0; padding: 0 15px 60px 15px;}
+.whyus_label{font-size: 20px; font-weight: 600; color:#CA333B; line-height: 25px; padding: 9px 0; text-align: center;}
+.whyus_desc{font-size: 18px; font-weight: 500; line-height: 24px; text-align: center;}
+.whyus_abt_section{max-width: 970px; margin: 50px auto 0; width: 100%; display: flex; flex-wrap: wrap;justify-content: space-between;padding-bottom: 15px;}
+.whyus_abt_row{width: 100%; padding: 0 0 0 77px; position: relative}
+.whyus_abt_row img{position:absolute; top:0px; left:0px;}
+.whyus_title{font-size: 28px; font-weight: 700; line-height: 30px; padding: 0 0 7px 0;}
+.whyus_txt{font-size: 14px; line-height: 30x;}
+.whyus_client{max-width: 1170px; width: 100%; margin: 50px auto 0; display: flex; flex-wrap: wrap;}
+.whyus_clnt_col{width: 25%; padding: 0 15px; text-align: center;}
+.whyus_clnt_row{width: 100%; border: 1px solid #E2E2E2; padding:28px 12px 34px 12px; height: 100%;}
+.whyus_clnt_title{font-size: 16px; font-weight: 600; line-height: 24px; padding: 20px 0 4px 0;}
+.whyus_clnt_desc{font-size: 14px; line-height: 20px;}
+
+/* our work process */
+.work_proc_section{width: 100%; padding: 70px 0 70px 0;float: left;clear: both;}
+.work_proc_section .heading{color:#CA333B}
+.ourwrk_label{font-size: 20px; font-weight: 600; line-height: 30px; text-align: center;}
+.work_proc_wrap{width: 100%; display: flex; flex-wrap: wrap;justify-content: space-between;}
+.work_proc_col{text-align: center; position: relative}
+.work_proc_col:after{background:url('../assets/images/wrk-proc-arrow.png') no-repeat top left ; content: ''; width: 25px; height: 15px; display: block; position:absolute; top: 20px; left:100%;}
+.work_proc_row{width: 100%;}
+.work_proc_col:last-child:after{display: none;}
+.wrkprc_title{font-size: 14px; line-height: 21px; padding: 28px 0 0 0;}
+.const_btn{text-align: center;margin: 0 auto; padding: 40px 0 0 0;}
+.const_btn .common_btn{font-size: 16px; line-height: 20px; font-weight: 600; padding: 16px 36px; }
+
+
+/* testimonial section */
+.testimonial_section{width: 100%; background-color: #F2F2F2; float: left; clear: both; padding: 0 15px 60px 15px;}
+.tstmnl_label{font-size: 20px; line-height: 30px; font-weight: 600; text-align: center;color:#CA333B; padding: 16px 0 0 0;}
+.tstmnl_wrap{width: 100%; max-width: 950px; margin: 0 auto; padding: 40px 0 0 0; display: flex; flex-wrap: wrap;}
+.txtmnl_desc{width: 100%;}
+.tstmnl_desc p {font-size: 16px;line-height: 26px;}
+.tstmnl_desc p a{color:#CA333B; text-decoration: underline;}
+.tstmnl_desc p a:hover{text-decoration: none;}
+.tstmnl_lft{width: 68%;}
+.tstmnl_rgt{width: 32%; text-align: right;}
+.tstmnl_more{padding: 16px 0 0 0; text-align: center;}
+.tstmnl_more a{color:#CA333B; text-decoration: underline; font-size: 18px; font-weight: 500; line-height: 22px;}
+.tstmnl_more a:hover{text-decoration: none;}
+
+/* our client section */
+.our_client_section{width: 100%; padding: 70px 0; float: left; clear: both;}
+.ourclnt_row{width: 100%; display: flex; flex-wrap: wrap; padding: 22px 0 0 0;justify-content: space-between;}
+.ourclnt_label{font-size: 20px; line-height: 30px; font-weight: 600; text-align: center;}
+.our_client_section .heading{color:#CA333B}
