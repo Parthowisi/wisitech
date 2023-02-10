@@ -2,7 +2,6 @@ import React, { Fragment } from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-
 import Slider from "react-slick";
 
 
@@ -296,6 +295,288 @@ function Index(){
                 </div>{/* tstmnl_wrap */}
                 <div className="tstmnl_more"><a href="#">More Testimonials</a></div>
             </div>{/* testimonial_section */}
+
+
+            <div className="our_client_section">
+                <div className="outer_wrapper">
+                    <div className="ourclnt_label poppins">Trusted By The</div>
+                    <div className="heading poppins pad0">World’s Best Companies</div>
+                    <div className="ourclnt_row">
+                    <img src="assets/images/client-logo-1.png" alt="" />
+                    <img src="assets/images/client-logo-2.png" alt="" />
+                    <img src="assets/images/client-logo-3.png" alt="" />
+                    <img src="assets/images/client-logo-4.png" alt="" />
+                    <img src="assets/images/client-logo-5.png" alt="" />
+                    <img src="assets/images/client-logo-6.png" alt="" />
+                    <img src="assets/images/client-logo-7.png" alt="" />
+                    <img src="assets/images/client-logo-8.png" alt="" />
+                    </div>{/* ourclnt_row */}
+                </div>{/* outer_wrapper */}
+                </div>{/* our_client_section */}
+                <div className="let_tlk_section">
+                <div className="let_tlk_wrap">
+                    <div className="letlk_lft">
+                    <img src="assets/images/partho-mandal.png" alt="" />
+                    </div>{/* letlk_lft */}
+                    <div className="letlk_rgt">
+                    <p>“When I founded Wisitech in January 1999, I believed we were at the right time to ride the crest of the digital wave as the World Wide Web exploded. We’ve stayed ahead of the technology trends to offer solutions that help our customers walk the web wisely and avoid the pitfalls. From ideation to design, from development to marketing, we partner you with a 360 degree approach. We know what works and will ensure it works for you.”</p>
+                    <p><b>Partho Mondal</b>, CEO, Wisitech</p>
+                    <a href="#" className="common_btn">LET’S TALK</a>
+                    </div>{/* letlk_rgt */}
+                </div>{/* let_tlk_wrap */}
+                </div>{/* let_tlk_section */}
+                <div className="outer_wrapper">
+                <div className="heading">Our Blog</div>
+                <div className="blog_section">
+                    <div className="blog_col">
+                    <img src="assets/images/blog-1.png" alt="" />
+                    <a className="blog_title" href="#">How can you Benefit from Content Writing Services?</a>
+                    </div>{/* blog_col */}
+                    <div className="blog_col">
+                    <img src="assets/images/blog-2.png" alt="" />
+                    <a className="blog_title" href="#">Responsive Web Design Services  Create a Mobile-Friendly</a>
+                    </div>{/* blog_col */}
+                </div>{/* blog_section */}
+                <div className="award_section">
+                    <div className="heading">Recognitions &amp; Awards</div>
+                    <div className="award_row">
+                    <div className="award_img"><img src="assets/images/award-1.png" alt="" /></div>
+                    <div className="award_img"><img src="assets/images/award-2.png" alt="" /></div>
+                    <div className="award_img"><img src="assets/images/award-3.png" alt="" /></div>
+                    <div className="award_img"><img src="assets/images/award-4.png" alt="" /></div>
+                    <div className="award_img"><img src="assets/images/award-5.png" alt="" /></div>
+                    <div className="award_img"><img src="assets/images/award-6.png" alt="" /></div>
+                    <div className="award_img"><img src="assets/images/award-7.png" alt="" /></div>
+                    <div className="award_img"><img src="assets/images/award-8.png" alt="" /></div>
+                    <div className="award_img"><img src="assets/images/award-9.png" alt="" /></div>
+                    <div className="award_img"><img src="assets/images/award-10.png" alt="" /></div>
+                    <div className="award_img"><img src="assets/images/award-11.png" alt="" /></div>
+                    <div className="award_img"><img src="assets/images/award-12.png" alt="" /></div>				
+                    <div className="award_img"><img src="assets/images/award-14.png" alt="" /></div>
+                    <div className="award_img"><img src="assets/images/award-13.png" alt="" /></div>
+                    </div>{/* award_row */}
+                </div>{/* award_section */}
+                <div className="google_ads_section">
+                    <div className="heading padT0">Google Ads Certified</div>
+                    <div className="google_ads_row">
+                    <div className="google_ads_col">
+                        <img src="assets/images/google-ads-1.png" alt="" />
+                        <div className="google_ads_txt">Google<br />
+                        Ads Video<br />
+                        Certification</div>
+                    </div>{/* google_ads_col */}
+                    <div className="google_ads_col">
+                        <img src="assets/images/google-ads-2.png" alt="" />
+                        <div className="google_ads_txt">Google<br />
+                        Campaign Manager<br />
+                        Certification</div>
+                    </div>{/* google_ads_col */}
+                    <div className="google_ads_col">
+                        <img src="assets/images/google-ads-3.png" alt="" />
+                        <div className="google_ads_txt">Google<br />
+                        Ads Search<br />
+                        Certification</div>
+                    </div>{/* google_ads_col */}
+                    <div className="google_ads_col">
+                        <img src="assets/images/google-ads-4.png" alt="" />
+                        <div className="google_ads_txt">Google<br />
+                        Ads Display<br />
+                        Certification</div>
+                    </div>{/* google_ads_col */}
+                    <div className="google_ads_col">
+                        <img src="assets/images/google-ads-5.png" alt="" />
+                        <div className="google_ads_txt">Google<br />
+                        Shopping Ads<br />
+                        Certification</div>
+                    </div>{/* google_ads_col */}
+                    </div>{/* google_ads_row */}
+                    <div className="google_ads_btn"><a href="#" className="common_btn">FREE 30 MINUTE CONSULTATION</a></div>
+                </div>{/* google_ads_section */}
+                </div>{/* outer_wrapper */}
+                <footer>
+                <div className="outer_wrapper">
+                    <div className="ft_menu_wrap">
+                    <div className="ft_menu_col">
+                        <div className="ft_menu_heading">Home</div>
+                        <div className="ft_menu_title">it consulting</div>
+                        <ul className="ft_menu">
+                        <li><a href="#">it consulting services</a></li>
+                        <li><a href="#">web business consulting</a></li>
+                        <li><a href="#">expand business in india</a></li>
+                        </ul>
+                        <div className="ft_menu_title">Design</div>
+                        <ul className="ft_menu">
+                        <li><a href="#">ux/ui design</a></li>
+                        <li><a href="#">responsive web design</a></li>
+                        <li><a href="#">web redesign</a></li>
+                        </ul>
+                        <div className="ft_menu_title">portfolio</div>
+                        <ul className="ft_menu">
+                        <li><a href="#">ecommerce sites</a></li>
+                        <li><a href="#">web apps</a></li>
+                        <li><a href="#">mobile apps</a></li>
+                        <li><a href="#">wordpress sites</a></li>
+                        <li><a href="#">corporate sites</a></li>
+                        <li><a href="#">digital marketing</a>
+                            <ul className="ft_sub_menu">
+                            <li><a href="#">seo</a></li>
+                            <li><a href="#">google ads</a></li>
+                            <li><a href="#">social media</a></li>
+                            <li><a href="#">amazon</a></li>
+                            <li><a href="#">etsy</a></li>
+                            </ul>
+                        </li>
+                        </ul>
+                        <div className="ft_menu_title">about</div>
+                        <ul className="ft_menu">
+                        <li><a href="#">profile</a></li>
+                        <li><a href="#">clients</a></li>
+                        <li><a href="#">testimonials</a></li>
+                        <li><a href="#">blog</a></li>
+                        </ul>
+                    </div>{/* ft_menu_col */}
+                    <div className="ft_menu_col">
+                        <div className="ft_menu_heading">development</div>					
+                        <ul className="ft_menu">											
+                        <li><a href="#">mobile app development</a>
+                            <ul className="ft_sub_menu">
+                            <li><a href="#">Android App Development</a></li>
+                            <li><a href="#">iphone App Development</a></li>
+                            <li><a href="#">Flutter App Development</a></li>
+                            <li><a href="#">App Usability Testing</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Ecommerce Development</a>
+                            <ul className="ft_sub_menu">
+                            <li><a href="#">Ecommerce Solutions</a></li>
+                            <li><a href="#">Artificial Intelligence</a></li>
+                            <li><a href="#">WooCommerce Development</a></li>
+                            <li><a href="#">CS-Cart Development</a></li>
+                            <li><a href="#">Shopify Development</a></li>
+                            <li><a href="#">BigCommerce Development</a></li>
+                            <li><a href="#">Magento Development</a></li>
+                            <li><a href="#">Magento Upgrade Services</a></li>								
+                            </ul>
+                        </li>	
+                        <li><a href="#">Web Development</a>
+                            <ul className="ft_sub_menu">
+                            <li><a href="#">Web Development Services </a></li>
+                            <li><a href="#">MEAN Stack Development</a></li>
+                            <li><a href="#">Angular JS Development</a></li>
+                            <li><a href="#">Laravel Development</a></li>
+                            <li><a href="#">WordPress Development</a></li>															
+                            </ul>
+                        </li>
+                        <li><a href="#">website packages</a></li>
+                        <li><a href="#">kindle publishing services</a></li>	
+                        <li><a href="#">PSD to HTML Responsive</a></li>									
+                        </ul>
+                    </div>{/* ft_menu_col */}
+                    <div className="ft_menu_col">
+                        <div className="ft_menu_heading">Digital Marketing</div>					
+                        <ul className="ft_menu">											
+                        <li><a href="#">Web Marketing</a>
+                            <ul className="ft_sub_menu">
+                            <li><a href="#">Digital Marketing Services</a></li>
+                            <li><a href="#">SEO Services</a></li>
+                            <li><a href="#">SEO/SMO Packages</a></li>
+                            <li><a href="#">Social Media Marketing</a></li>
+                            <li><a href="#">Google AdWords Management</a></li>
+                            <li><a href="#">Bad Link Removal Services</a></li>
+                            <li><a href="#">Google Penalty Recovery Services</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Amazon, Etsy, eBay, Walmart Marketing</a>
+                            <ul className="ft_sub_menu">
+                            <li><a href="#">Amazon Marketing Services</a></li>
+                            <li><a href="#">Etsy Marketing Services</a></li>
+                            <li><a href="#">eBay Marketing Services</a></li>
+                            <li><a href="#">Walmart Marketing Services</a></li>															
+                            </ul>
+                        </li>	
+                        <li><a href="#">App Store Optimization</a></li>
+                        <li><a href="#">Conversion Rate Optimization</a></li>
+                        <li><a href="#">Content Development</a>
+                            <ul className="ft_sub_menu">
+                            <li><a href="#">SEO Copywriting</a></li>
+                            <li><a href="#">Business Writing &amp; Sales</a></li>																							
+                            </ul>
+                        </li>
+                        <li><a href="#">Affiliate Marketing</a></li>
+                        <li><a href="#">Facebook Ads</a></li>	
+                        <li><a href="#">LinkedIn Ads</a></li>									
+                        </ul>
+                    </div>{/* ft_menu_col */}
+                    </div>{/* ft_menu_wrap */}
+                    <div className="ft_address_wrap">
+                    <div className="ft_add_col">
+                        <div className="ft_add_row">
+                        <img src="assets/images/india-flag.png" alt="" />
+                        <div className="ft_add_cont">
+                            <div className="ft_contry_name poppins">INDIA</div>
+                            <div className="ft_contry_represnt">Partho Mondal</div>
+                            <div className="ft_mail"><i className="fa fa-envelope" /> <a href="mailto:partho.m@wisitech.com">partho.m@wisitech.com</a></div>
+                            <div className="ft_phone"><i className="fa fa-phone-volume" /><a href="tel:0091.9582.849.600">0091.9582.849.600</a><br />
+                            <a href="tel:0091.9313.964.620">0091.9313.964.620</a></div>
+                            <div className="ft_location"><i className="fa fa-location-dot" />76/2, Garhi, Sant Nagar,<br />
+                            East of Kailash,<br />
+                            New Delhi - 110065</div>
+                        </div>{/* ft_add_cont */}
+                        </div>{/* ft_add_row */}
+                    </div>{/* ft_add_col */}
+                    <div className="ft_add_col">
+                        <div className="ft_add_row">
+                        <img src="assets/images/usa-flag.png" alt="" />
+                        <div className="ft_add_cont">
+                            <div className="ft_contry_name poppins">USA</div>
+                            <div className="ft_contry_represnt">Nader Y Zohar</div>
+                            <div className="ft_mail"><i className="fa fa-envelope" /> <a href="mailto:nader@wisitech.com">nader@wisitech.com</a></div>
+                            <div className="ft_phone"><i className="fa fa-phone-volume" /><a href="tel:001.888.680.0174">001.888.680.0174</a> (Toll Free)</div>
+                            <div className="ft_location"><i className="fa fa-location-dot" />9190 West Olympic Blvd.<br />
+                            Suite 233, Beverly Hills, CA 90212</div>
+                        </div>{/* ft_add_cont */}
+                        </div>{/* ft_add_row */}
+                    </div>{/* ft_add_col */}
+                    <div className="ft_add_col">
+                        <div className="ft_add_row">
+                        <img src="assets/images/canada-flag.png" alt="" />
+                        <div className="ft_add_cont">
+                            <div className="ft_contry_name poppins">CANADA</div>
+                            <div className="ft_contry_represnt">Peeyush Sharma</div>
+                            <div className="ft_mail"><i className="fa fa-envelope" /> <a href="mailto:peeyush@wisitech.com">peeyush@wisitech.com</a></div>
+                            <div className="ft_phone"><i className="fa fa-phone-volume" /><a href="tel:001.416.577.8178">001.416.577.8178</a></div>
+                            <div className="ft_location"><i className="fa fa-location-dot" />577 Annandale Street<br />
+                            Oshawa, Ontario, L1H 7s6</div>
+                        </div>{/* ft_add_cont */}
+                        </div>{/* ft_add_row */}
+                    </div>{/* ft_add_col */}
+                    </div>{/* ft_address_wrap */}
+                    <div className="ft_rating_row">
+                    <a href="#" className="rating_row">
+                        <span><img src="assets/images/rating.png" alt="" /></span>
+                        <div className="rating_txt">Rated 4.9 out of 5.0 for Ecommerce, Web &amp; App Development Services by 1200 clients on over 9000+ overall projects.</div>
+                    </a>
+                    </div>{/* ft_rating_row */}
+                </div>{/* outer_wrapper */}
+                </footer>
+                <div className="ft_copyright_row">
+                <div className="outer_wrapper">
+                    <div className="ft_btm_lft">
+                    <div className="ft_ptrs_row">
+                        <a href="#">Privacy Policy</a> | <a href="#">Terms &amp; Conditions</a> | <a href="#">Refund &amp; Cancellation Policy</a> | <a href="#">Service Pricing</a>
+                    </div>{/* ft_ptrs_row */}
+                    <div className="ft_copyright_txt">
+                        Copyright © 2023 Wisitech InfoSolutions Pvt. Ltd. All Rights Reserved.
+                    </div>{/* ft_copyright_txt */}
+                    </div>{/* ft_btm_lft */}
+                    <div className="ft_btm_rgt">				
+                    <a href="https://www.facebook.com/WisitechInfoSolution" target="_blank"><i className="fa-brands fa-facebook-f" /></a>
+                    <a href="https://in.linkedin.com/company/wisitech?trk=ppro_cprof" target="_blank"><i className="fa-brands fa-linkedin-in" /></a>
+                    <a href="https://www.instagram.com/wisitech_infosolutions/" target="_blank"><i className="fa-brands fa-instagram" /></a>
+                    </div>{/* ft_btm_rgt */}
+                </div>{/* outer_wrapper */}
+            </div>{/* ft_copyright_row */}
+
         </Fragment>
     )
 }
