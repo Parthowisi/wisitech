@@ -500,119 +500,119 @@ function Index(){
                 </div>{/* outer_wrapper */}
                 <footer>
                 <div className="outer_wrapper">
-                    <div className="ft_menu_wrap">
-                    <div className="ft_menu_col">
-                        <div className="ft_menu_heading">Home</div>
-                        <div className="ft_menu_title">it consulting</div>
-                        <ul className="ft_menu">
-                        <li><a href="#">it consulting services</a></li>
-                        <li><a href="#">web business consulting</a></li>
-                        <li><a href="#">expand business in india</a></li>
-                        </ul>
-                        <div className="ft_menu_title">Design</div>
-                        <ul className="ft_menu">
-                        <li><a href="#">ux/ui design</a></li>
-                        <li><a href="#">responsive web design</a></li>
-                        <li><a href="#">web redesign</a></li>
-                        </ul>
-                        <div className="ft_menu_title">portfolio</div>
-                        <ul className="ft_menu">
-                        <li><a href="#">ecommerce sites</a></li>
-                        <li><a href="#">web apps</a></li>
-                        <li><a href="#">mobile apps</a></li>
-                        <li><a href="#">wordpress sites</a></li>
-                        <li><a href="#">corporate sites</a></li>
-                        <li><a href="#">digital marketing</a>
-                            <ul className="ft_sub_menu">
-                            <li><a href="#">seo</a></li>
-                            <li><a href="#">google ads</a></li>
-                            <li><a href="#">social media</a></li>
-                            <li><a href="#">amazon</a></li>
-                            <li><a href="#">etsy</a></li>
-                            </ul>
-                        </li>
-                        </ul>
-                        <div className="ft_menu_title">about</div>
-                        <ul className="ft_menu">
-                        <li><a href="#">profile</a></li>
-                        <li><a href="#">clients</a></li>
-                        <li><a href="#">testimonials</a></li>
-                        <li><a href="#">blog</a></li>
-                        </ul>
-                    </div>{/* ft_menu_col */}
-                    <div className="ft_menu_col">
-                        <div className="ft_menu_heading">development</div>					
-                        <ul className="ft_menu">											
-                        <li><a href="#">mobile app development</a>
-                            <ul className="ft_sub_menu">
-                            <li><a href="#">Android App Development</a></li>
-                            <li><a href="#">iphone App Development</a></li>
-                            <li><a href="#">Flutter App Development</a></li>
-                            <li><a href="#">App Usability Testing</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Ecommerce Development</a>
-                            <ul className="ft_sub_menu">
-                            <li><a href="#">Ecommerce Solutions</a></li>
-                            <li><a href="#">Artificial Intelligence</a></li>
-                            <li><a href="#">WooCommerce Development</a></li>
-                            <li><a href="#">CS-Cart Development</a></li>
-                            <li><a href="#">Shopify Development</a></li>
-                            <li><a href="#">BigCommerce Development</a></li>
-                            <li><a href="#">Magento Development</a></li>
-                            <li><a href="#">Magento Upgrade Services</a></li>								
-                            </ul>
-                        </li>	
-                        <li><a href="#">Web Development</a>
-                            <ul className="ft_sub_menu">
-                            <li><a href="#">Web Development Services </a></li>
-                            <li><a href="#">MEAN Stack Development</a></li>
-                            <li><a href="#">Angular JS Development</a></li>
-                            <li><a href="#">Laravel Development</a></li>
-                            <li><a href="#">WordPress Development</a></li>															
-                            </ul>
-                        </li>
-                        <li><a href="#">website packages</a></li>
-                        <li><a href="#">kindle publishing services</a></li>	
-                        <li><a href="#">PSD to HTML Responsive</a></li>									
-                        </ul>
-                    </div>{/* ft_menu_col */}
-                    <div className="ft_menu_col">
-                        <div className="ft_menu_heading">Digital Marketing</div>					
-                        <ul className="ft_menu">											
-                        <li><a href="#">Web Marketing</a>
-                            <ul className="ft_sub_menu">
-                            <li><a href="#">Digital Marketing Services</a></li>
-                            <li><a href="#">SEO Services</a></li>
-                            <li><a href="#">SEO/SMO Packages</a></li>
-                            <li><a href="#">Social Media Marketing</a></li>
-                            <li><a href="#">Google AdWords Management</a></li>
-                            <li><a href="#">Bad Link Removal Services</a></li>
-                            <li><a href="#">Google Penalty Recovery Services</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Amazon, Etsy, eBay, Walmart Marketing</a>
-                            <ul className="ft_sub_menu">
-                            <li><a href="#">Amazon Marketing Services</a></li>
-                            <li><a href="#">Etsy Marketing Services</a></li>
-                            <li><a href="#">eBay Marketing Services</a></li>
-                            <li><a href="#">Walmart Marketing Services</a></li>															
-                            </ul>
-                        </li>	
-                        <li><a href="#">App Store Optimization</a></li>
-                        <li><a href="#">Conversion Rate Optimization</a></li>
-                        <li><a href="#">Content Development</a>
-                            <ul className="ft_sub_menu">
-                            <li><a href="#">SEO Copywriting</a></li>
-                            <li><a href="#">Business Writing &amp; Sales</a></li>																							
-                            </ul>
-                        </li>
-                        <li><a href="#">Affiliate Marketing</a></li>
-                        <li><a href="#">Facebook Ads</a></li>	
-                        <li><a href="#">LinkedIn Ads</a></li>									
-                        </ul>
-                    </div>{/* ft_menu_col */}
-                    </div>{/* ft_menu_wrap */}
+                     <div className="ft_menu_wrap">
+        <div className="ft_menu_col">
+          <div className="ft_menu_heading">Home</div>
+          <div className="ft_menu_title">it consulting</div>
+          <ul className="ft_menu">
+            <li><a href="https://www.wisitech.com/web-consultancy-services/">it consulting services</a></li>
+            <li><a href="https://www.wisitech.com/web-consultancy-services/web-business-consulting-services/">web business consulting</a></li>
+            <li><a href="https://www.wisitech.com/web-consultancy-services/business-in-india/">expand business in india</a></li>
+          </ul>
+          <div className="ft_menu_title">Design</div>
+          <ul className="ft_menu">
+            <li><a href="https://www.wisitech.com/ux-ui-design-services/">ux/ui design</a></li>
+            <li><a href="https://www.wisitech.com/web-development/responsive-web-design/">responsive web design</a></li>
+            <li><a href="https://www.wisitech.com/web-development/website-designing-services/">web redesign</a></li>
+          </ul>
+          <div className="ft_menu_title">portfolio</div>
+          <ul className="ft_menu">
+            <li><a href="https://www.wisitech.com/portfolio/?work=ecommerce-sites">ecommerce sites</a></li>
+            <li><a href="https://www.wisitech.com/portfolio/?work=web-apps">web apps</a></li>
+            <li><a href="https://www.wisitech.com/portfolio/?work=mobile-apps">mobile apps</a></li>
+            <li><a href="https://www.wisitech.com/portfolio/?work=wordpress-sites">wordpress sites</a></li>
+            <li><a href="https://www.wisitech.com/portfolio/?work=corporate-sites">corporate sites</a></li>
+            <li><a href="https://www.wisitech.com/portfolio/?work=digital-marketing">digital marketing</a>
+              <ul className="ft_sub_menu">
+                <li><a href="https://www.wisitech.com/portfolio/?work=digital-marketing-seo">seo</a></li>
+                <li><a href="https://www.wisitech.com/portfolio/?work=digital-marketing-google-ads">google ads</a></li>
+                <li><a href="https://www.wisitech.com/portfolio/?work=digital-marketing-social-media">social media</a></li>
+                <li><a href="https://www.wisitech.com/portfolio/?work=digital-marketing-amazon">amazon</a></li>
+                <li><a href="https://www.wisitech.com/portfolio/?work=digital-marketing-etsy">etsy</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div className="ft_menu_title">about</div>
+          <ul className="ft_menu">
+            <li><a href="https://www.wisitech.com/web-design-web-development-company/">profile</a></li>
+            <li><a href="https://www.wisitech.com/web-design-web-development-company/clients/">clients</a></li>
+            <li><a href="https://www.wisitech.com/web-design-web-development-company/testimonials/">testimonials</a></li>
+            <li><a href="https://www.wisitech.com/blog/">blog</a></li>
+          </ul>
+        </div>{/* ft_menu_col */}
+        <div className="ft_menu_col">
+          <div className="ft_menu_heading">development</div>                  
+          <ul className="ft_menu">                                            
+            <li><a href="https://www.wisitech.com/mobile-apps/">mobile app development</a>
+              <ul className="ft_sub_menu">
+                <li><a href="https://www.wisitech.com/mobile-apps/android-app-development/">Android App Development</a></li>
+                <li><a href="https://www.wisitech.com/mobile-apps/iphone-app-development-services/">iphone App Development</a></li>
+                <li><a href="https://www.wisitech.com/flutter-app-development/">Flutter App Development</a></li>
+                <li><a href="https://www.wisitech.com/app-usability-testing-services/">App Usability Testing</a></li>
+              </ul>
+            </li>
+            <li><a href="https://www.wisitech.com/ecommerce-web-design-development-company/">Ecommerce Development</a>
+              <ul className="ft_sub_menu">
+                <li><a href="https://www.wisitech.com/ecommerce-web-design-development-company/">Ecommerce Solutions</a></li>
+                <li><a href="https://www.wisitech.com/ecommerce-solutions/artificial-intelligence/">Artificial Intelligence</a></li>
+                <li><a href="https://www.wisitech.com/ecommerce-solutions/woocommerce-development/">WooCommerce Development</a></li>
+                <li><a href="https://www.wisitech.com/ecommerce-solutions/cs-cart-development/">CS-Cart Development</a></li>
+                <li><a href="https://www.wisitech.com/ecommerce-solutions/shopify-development/">Shopify Development</a></li>
+                <li><a href="https://www.wisitech.com/ecommerce-solutions/bigcommerce-development-company/">BigCommerce Development</a></li>
+                <li><a href="https://www.wisitech.com/ecommerce-solutions/magento-development/">Magento Development</a></li>
+                <li><a href="https://www.wisitech.com/ecommerce-solutions/magento-upgrade-services/">Magento Upgrade Services</a></li>                               
+              </ul>
+            </li>   
+            <li><a href="https://www.wisitech.com/web-development/">Web Development</a>
+              <ul className="ft_sub_menu">
+                <li><a href="https://www.wisitech.com/web-development/">Web Development Services </a></li>
+                <li><a href="https://www.wisitech.com/mean-stack-developers/">MEAN Stack Development</a></li>
+                <li><a href="https://www.wisitech.com/angular-js-developers/">Angular JS Development</a></li>
+                <li><a href="https://www.wisitech.com/web-development/laravel-development/">Laravel Development</a></li>
+                <li><a href="https://www.wisitech.com/web-development/wordpress-web-design-development/">WordPress Development</a></li>                                                          
+              </ul>
+            </li>
+            <li><a href="https://www.wisitech.com/web-development/website-packages/">website packages</a></li>
+            <li><a href="https://www.wisitech.com/web-development/kindle/">kindle publishing services</a></li> 
+            <li><a href="https://www.wisitech.com/psd-to-html-responsive/">PSD to HTML Responsive</a></li>                                 
+          </ul>
+        </div>{/* ft_menu_col */}
+        <div className="ft_menu_col">
+          <div className="ft_menu_heading">Digital Marketing</div>                    
+          <ul className="ft_menu">                                            
+            <li><a href="https://www.wisitech.com/web-marketing/">Web Marketing</a>
+              <ul className="ft_sub_menu">
+                <li><a href="https://www.wisitech.com/web-marketing/">Digital Marketing Services</a></li>
+                <li><a href="https://www.wisitech.com/web-marketing/search-engine-optimization-services/">SEO Services</a></li>
+                <li><a href="https://www.wisitech.com/digital-marketing/seo-packages/">SEO/SMO Packages</a></li>
+                <li><a href="https://www.wisitech.com/digital-marketing/social-media-services/">Social Media Marketing</a></li>
+                <li><a href="https://www.wisitech.com/web-marketing/ppc-management/">Google AdWords Management</a></li>
+                <li><a href="https://www.wisitech.com/digital-marketing/bad-link-removal-services/">Bad Link Removal Services</a></li>
+                <li><a href="https://www.wisitech.com/digital-marketing/google-penalty-recovery-services/">Google Penalty Recovery Services</a></li>
+              </ul>
+            </li>
+            <li><a href="https://www.wisitech.com/web-marketing/amazon-seo-ppc-services/">Amazon, Etsy, eBay, Walmart Marketing</a>
+              <ul className="ft_sub_menu">
+                <li><a href="https://www.wisitech.com/web-marketing/amazon-seo-ppc-services/">Amazon Marketing Services</a></li>
+                <li><a href="https://www.wisitech.com/web-marketing/etsy-seo-services/">Etsy Marketing Services</a></li>
+                <li><a href="https://www.wisitech.com/web-marketing/ebay-seo-services/">eBay Marketing Services</a></li>
+                <li><a href="https://www.wisitech.com/walmart-marketing-services/">Walmart Marketing Services</a></li>                                                         
+              </ul>
+            </li>   
+            <li><a href="https://www.wisitech.com/app-store-optimization-services/">App Store Optimization</a></li>
+            <li><a href="https://www.wisitech.com/web-marketing/conversion-rate-optimization/">Conversion Rate Optimization</a></li>
+            <li><a href="https://www.wisitech.com/content-development/">Content Development</a>
+              <ul className="ft_sub_menu">
+                <li><a href="https://www.wisitech.com/content-development/">SEO Copywriting</a></li>
+                <li><a href="https://www.wisitech.com/content-development/sales-letters-business-writing/">Business Writing &amp; Sales</a></li>                                                                                           
+              </ul>
+            </li>
+            <li><a href="https://www.wisitech.com/web-marketing/affiliate-marketing-services/">Affiliate Marketing</a></li>
+            <li><a href="https://www.wisitech.com/facebook-advertising-services-agency/">Facebook Ads</a></li>   
+            <li><a href="https://www.wisitech.com/linkedin-ads-marketing-services/">LinkedIn Ads</a></li>                                   
+          </ul>
+        </div>{/* ft_menu_col */}
+      </div>{/* ft_menu_wrap */}
                     <div className="ft_address_wrap">
                     <div className="ft_add_col">
                         <div className="ft_add_row">
@@ -668,7 +668,7 @@ function Index(){
                 <div className="outer_wrapper">
                     <div className="ft_btm_lft">
                     <div className="ft_ptrs_row">
-                        <a href="#">Privacy Policy</a> | <a href="#">Terms &amp; Conditions</a> | <a href="#">Refund &amp; Cancellation Policy</a> | <a href="#">Service Pricing</a>
+                        <a href="https://www.wisitech.com/privacy-policy/">Privacy Policy</a> | <a href="https://www.wisitech.com/terms-conditions/">Terms & Conditions</a> | <a href="https://www.wisitech.com/refund-cancellation-policy/">Refund & Cancellation Policy</a> | <a href="https://www.wisitech.com/web-development/website-packages/">Service Pricing</a>
                     </div>{/* ft_ptrs_row */}
                     <div className="ft_copyright_txt">
                         Copyright © 2023 Wisitech InfoSolutions Pvt. Ltd. All Rights Reserved.
