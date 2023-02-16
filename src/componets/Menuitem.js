@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { FiChevronDown } from 'react-icons/fi'
 
 function Menuitem({item}){
     const [open, setOpen] = useState(false);
