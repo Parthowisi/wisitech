@@ -3,7 +3,7 @@
         "title": "HOME",
         "path": "https://www.wisitech.com/",
         "level": 0,
-        "hide": true
+        "class": "mob_nav_link"
     },
     {
         "title": "IT CONSULTING",
@@ -28,6 +28,11 @@
                     {
                         "title": "Android App Development",
                         "path": "https://www.wisitech.com/mobile-apps/android-app-development/",
+                        "level": 2
+                    },
+                    {
+                        "title": "Iphone App Development",
+                        "path": "https://www.wisitech.com/mobile-apps/iphone-app-development-services/",
                         "level": 2
                     }
                 ]

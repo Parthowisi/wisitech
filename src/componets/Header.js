@@ -32,7 +32,7 @@ const Header = () => {
                             /> : <><span /><span /><span /></>}
                     </div>
 
-                    <nav className={isMenu === true ? "mobile_open" : "" }>
+                    <nav style={{ display: isMenu ? 'block' : '' }}>
                         <ul>
                             { menus.map((item, index) => <Menuitem key={index} item={item} />) }
                         </ul>
