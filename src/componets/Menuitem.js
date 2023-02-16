@@ -21,7 +21,7 @@ function Menuitem({item}){
                     
                     <i className={iClass} onClick={() => setOpen(!open)} />
                     
-                    <ul className={subMenuClass} style={{ display: open ? 'block' : 'none' }}>
+                    <ul className={subMenuClass} style={{ display: open ? 'block' : '' }}>
                         { item.childrens.map((child, index) => <Menuitem key={index} item={child} />) }
                     </ul>
                 </li>

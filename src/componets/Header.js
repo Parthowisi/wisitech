@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import WebPimg from './Webpimg';
 import { MdPhoneInTalk } from 'react-icons/md';
 import { TfiClose } from 'react-icons/tfi';
-import Menuitemmobile from "./Menuitemmobile";
 import Menuitem from "./Menuitem";
 import menus from "../data/menuitem.json";
 
@@ -33,18 +32,12 @@ const Header = () => {
                             /> : <><span /><span /><span /></>}
                     </div>
 
-                    <nav className={isMenu === true ? "mobile_open" : "v" }>
+                    <nav className={isMenu === true ? "mobile_open" : "" }>
                         <ul>
                             { menus.map((item, index) => <Menuitem key={index} item={item} />) }
                         </ul>
                     </nav>
 
-                    {/* <nav className={isMenu === true ? "sidebar mobile_open" : "sidebar hide_nav" }>
-                        { menus.map((item, index) => <Menuitemmobile key={index} item={item} />) }
-                    </nav> */}
-
-                    
-                    
                     <div className="head_cont">
                         <div className="get_purposal"><a className="common_btn" href="#">GET A PROPOSAL</a></div>
                         <div className="head_phone"><a href="tel:888.680.0174"><MdPhoneInTalk/> 888.680.0174</a></div>
