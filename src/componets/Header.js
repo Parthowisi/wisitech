@@ -8,9 +8,6 @@ import menus from "../data/menuitem.json";
 const Header = () => {
 
     const [isMenu, setisMenu] = useState(false);
-    const toggleClass = () => {
-        setisMenu(isMenu === false ? true : false);
-    };
 
     return (
         <>
@@ -20,7 +17,7 @@ const Header = () => {
                     <div className="header_logo">
                         <WebPimg src="assets/images/logo.png" alt="logo" webpsrc="assets/images/webp/logo.webp" />
                     </div>
-                    <div className="heamburger" onClick={toggleClass}>
+                    <div className="heamburger" onClick={() => setisMenu(!isMenu)}>
                         {isMenu===true ?
                             <TfiClose style={{
                                     position: 'fixed',
