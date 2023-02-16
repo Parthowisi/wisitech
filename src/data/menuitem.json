@@ -34,12 +34,320 @@
                         "title": "Iphone App Development",
                         "path": "https://www.wisitech.com/mobile-apps/iphone-app-development-services/",
                         "level": 2
+                    },
+                    {
+                        "title": "Flutter App Development",
+                        "path": "https://www.wisitech.com/flutter-app-development/",
+                        "level": 2
+                    },
+                    {
+                        "title": "App Usability Testing",
+                        "path": "https://www.wisitech.com/app-usability-testing-services/",
+                        "level": 2
                     }
                 ]
             },
             {
                 "title": "Ecommerce Development",
                 "path": "https://www.wisitech.com/ecommerce-web-design-development-company/",
+                "level": 1,
+                "childrens":[
+                    {
+                        "title": "Ecommerce Solutions",
+                        "path": "https://www.wisitech.com/ecommerce-web-design-development-company/",
+                        "level": 2
+                    },
+                    {
+                        "title": "Artificial Intelligence",
+                        "path": "https://www.wisitech.com/ecommerce-solutions/artificial-intelligence/",
+                        "level": 2
+                    },
+                    {
+                        "title": "WooCommerce Development",
+                        "path": "https://www.wisitech.com/ecommerce-solutions/woocommerce-development/",
+                        "level": 2
+                    },
+                    {
+                        "title": "CS-Cart Development",
+                        "path": "https://www.wisitech.com/ecommerce-solutions/cs-cart-development/",
+                        "level": 2
+                    },
+                     {
+                        "title": "Shopify Development",
+                        "path": "https://www.wisitech.com/ecommerce-solutions/shopify-development/",
+                        "level": 2
+                    },
+                     {
+                        "title": "BigCommerce Development",
+                        "path": "https://www.wisitech.com/ecommerce-solutions/bigcommerce-development-company/",
+                        "level": 2
+                    },
+                     {
+                        "title": "Magento Development",
+                        "path": "https://www.wisitech.com/ecommerce-solutions/magento-development/",
+                        "level": 2
+                    },
+                    {
+                        "title": "Magento Upgrade Services",
+                        "path": "https://www.wisitech.com/ecommerce-solutions/magento-upgrade-services/",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "title": "Web Development",
+                "path": "https://www.wisitech.com/web-development/",
+                "level": 1,
+                "childrens":[
+                    {
+                        "title": "Web Development Services ",
+                        "path": "https://www.wisitech.com/web-development/",
+                        "level": 2
+                    },
+                    {
+                        "title": "MEAN Stack Development",
+                        "path": "https://www.wisitech.com/mean-stack-developers/",
+                        "level": 2
+                    },
+                    {
+                        "title": "Angular JS Development",
+                        "path": "https://www.wisitech.com/angular-js-developers/",
+                        "level": 2
+                    },
+                    {
+                        "title": "Laravel Development",
+                        "path": "https://www.wisitech.com/web-development/laravel-development/",
+                        "level": 2
+                    },
+                    {
+                        "title": "WordPress Development",
+                        "path": "https://www.wisitech.com/web-development/wordpress-web-design-development/",
+                        "level": 2
+                    }
+                ]
+            },
+             {
+                "title": "website packages",
+                "path": "https://www.wisitech.com/web-development/website-packages/",
+                "level": 1
+            },
+             {
+                "title": "kindle publishing services",
+                "path": "https://www.wisitech.com/web-development/kindle/",
+                "level": 1
+            },
+             {
+                "title": "PSD to HTML Responsive",
+                "path": "https://www.wisitech.com/psd-to-html-responsive/",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "title": "Digital marketing",
+        "path": "https://www.wisitech.com/digital-marketing/",
+        "level": 0,
+        "childrens": [
+            {
+                "title": "Web Marketing",
+                "path": "https://www.wisitech.com/web-marketing/",
+                "level": 1,
+                "childrens":[
+                    {
+                        "title": "Digital Marketing Services",
+                        "path": "https://www.wisitech.com/web-marketing/",
+                        "level": 2
+                    },
+                    {
+                        "title": "SEO Services",
+                        "path": "https://www.wisitech.com/web-marketing/search-engine-optimization-services/",
+                        "level": 2
+                    },
+                    {
+                        "title": "SEO/SMO Packages",
+                        "path": "https://www.wisitech.com/web-marketing/seo-packages/",
+                        "level": 2
+                    },
+                    {
+                        "title": "Social Media Marketing",
+                        "path": "https://www.wisitech.com/web-marketing/social-media-services/",
+                        "level": 2
+                    },
+                    {
+                        "title": "Google AdWords Management",
+                        "path": "https://www.wisitech.com/web-marketing/ppc-management/",
+                        "level": 2
+                    },
+                     {
+                        "title": "Bad Link Removal Services",
+                        "path": "https://www.wisitech.com/web-marketing/bad-link-removal-services/",
+                        "level": 2
+                    },
+                    {
+                        "title": "Google Penalty Recovery Services",
+                        "path": "https://www.wisitech.com/web-marketing/google-penalty-recovery-services/",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "title": "Amazon, Etsy, eBay, Walmart Marketing",
+                "path": "https://www.wisitech.com/web-marketing/amazon-seo-ppc-services/",
+                "level": 1,
+                "childrens":[
+                    {
+                        "title": "Amazon Marketing Services",
+                        "path": "https://www.wisitech.com/web-marketing/amazon-seo-ppc-services/",
+                        "level": 2
+                    },
+                    {
+                        "title": "Etsy Marketing Services",
+                        "path": "https://www.wisitech.com/web-marketing/etsy-seo-services/",
+                        "level": 2
+                    },
+                    {
+                        "title": "eBay Marketing Services",
+                        "path": "https://www.wisitech.com/web-marketing/ebay-seo-services/",
+                        "level": 2
+                    },
+                    {
+                        "title": "Walmart Marketing Services",
+                        "path": "https://www.wisitech.com/walmart-marketing-services/",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "title": "App Store Optimization",
+                "path": "https://www.wisitech.com/app-store-optimization-services/",
+                "level": 1
+            },
+             {
+                "title": "Conversion Rate Optimization",
+                "path": "https://www.wisitech.com/web-marketing/conversion-rate-optimization/",
+                "level": 1
+            },
+             {
+                "title": "Content Development",
+                "path": "https://www.wisitech.com/content-development/",
+                "level": 1,
+                "childrens":[
+                    {
+                        "title": "SEO Copywriting",
+                        "path": "https://www.wisitech.com/content-development/",
+                        "level": 2
+                    },
+                    {
+                        "title": "Business Writing & Sales",
+                        "path": "https://www.wisitech.com/content-development/sales-letters-business-writing/",
+                        "level": 2
+                    }
+                ]
+            },
+             {
+                "title": "Affiliate Marketing",
+                "path": "https://www.wisitech.com/web-marketing/affiliate-marketing-services/",
+                "level": 1
+            },
+            {
+                "title": "Facebook Ads",
+                "path": "https://www.wisitech.com/facebook-advertising-services-agency/",
+                "level": 1
+            },
+            {
+                "title": "LinkedIn Ads",
+                "path": "https://www.wisitech.com/linkedin-ads-marketing-services/",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "title": "portfolio",
+        "path": "https://www.wisitech.com/portfolio/",
+        "level": 0,
+        "childrens": [
+            {
+                "title": "ecommerce sites",
+                "path": "https://www.wisitech.com/portfolio/?work=ecommerce-sites",
+                "level": 1
+            },
+            {
+                "title": "web apps",
+                "path": "https://www.wisitech.com/portfolio/?work=web-apps",
+                "level": 1
+            },
+            {
+                "title": "mobile apps",
+                "path": "https://www.wisitech.com/portfolio/?work=mobile-apps",
+                "level": 1
+            },
+             {
+                "title": "wordpress sites",
+                "path": "https://www.wisitech.com/portfolio/?work=wordpress-sites",
+                "level": 1
+            },
+             {
+                "title": "corporate sites",
+                "path": "https://www.wisitech.com/portfolio/?work=corporate-sites",
+                "level": 1
+            },
+             {
+                "title": "digital marketing",
+                "path": "https://www.wisitech.com/portfolio/?work=digital-marketing",
+                "level": 1,
+                "childrens":[
+                    {
+                        "title": "seo",
+                        "path": "https://www.wisitech.com/portfolio/?work=digital-marketing-seo",
+                        "level": 2
+                    },
+                    {
+                        "title": "google ads",
+                        "path": "https://www.wisitech.com/portfolio/?work=digital-marketing-google-ads",
+                        "level": 2
+                    },
+                    {
+                        "title": "social media",
+                        "path": "https://www.wisitech.com/portfolio/?work=digital-marketing-social-media",
+                        "level": 2
+                    },
+                    {
+                        "title": "amazon",
+                        "path": "https://www.wisitech.com/portfolio/?work=digital-marketing-amazon",
+                        "level": 2
+                    },
+                    {
+                        "title": "etsy",
+                        "path": "https://www.wisitech.com/portfolio/?work=digital-marketing-etsy",
+                        "level": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "about",
+        "path": "https://www.wisitech.com/about-us",
+        "level": 0,
+        "childrens": [
+            {
+                "title": "profile",
+                "path": "https://www.wisitech.com/web-design-web-development-company/",
+                "level": 1
+            },
+            {
+                "title": "clients",
+                "path": "https://www.wisitech.com/web-design-web-development-company/clients/",
+                "level": 1
+            },
+            {
+                "title": "testimonials",
+                "path": "https://www.wisitech.com/web-design-web-development-company/testimonials/",
+                "level": 1
+            },
+             {
+                "title": "blog",
+                "path": "https://www.wisitech.com/blog/",
                 "level": 1
             }
         ]
