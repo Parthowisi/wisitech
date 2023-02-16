@@ -1,0 +1,42 @@
+[
+    {
+        "title": "HOME",
+        "path": "https://www.wisitech.com/",
+        "level": 0,
+        "hide": true
+    },
+    {
+        "title": "IT CONSULTING",
+        "path": "https://www.wisitech.com/web-consultancy-services/",
+        "level": 0
+    },
+    {
+        "title": "UX/UI DESIGN",
+        "path": "https://www.wisitech.com/ux-ui-design-services/",
+        "level": 0
+    },
+    {
+        "title": "DEVELOPMENT",
+        "path": "https://www.wisitech.com/web-development/",
+        "level": 0,
+        "childrens": [
+            {
+                "title": "Mobile App Development",
+                "path": "https://www.wisitech.com/mobile-apps/",
+                "level": 1,
+                "childrens":[
+                    {
+                        "title": "Android App Development",
+                        "path": "https://www.wisitech.com/mobile-apps/android-app-development/",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "title": "Ecommerce Development",
+                "path": "https://www.wisitech.com/ecommerce-web-design-development-company/",
+                "level": 1
+            }
+        ]
+    }
+]

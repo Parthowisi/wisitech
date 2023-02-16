@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import WebPimg from '../componets/Webpimg';
+import Header from '../componets/Header';
 
 
 const settings_home = {
@@ -10,7 +11,7 @@ const settings_home = {
     infinite: true,
     prevArrow: false,
     nextArrow: false,
-    autoplay:true,
+    autoplay:false,
     slidesToShow: 1,
     slidesToScroll: 1
 };
@@ -31,139 +32,11 @@ const settings_portfolio = {
 function Index(){
     return(
         <Fragment>
-            <header>
-                <div className="header_wrapper">
-                    <div className="header_row">
-                    <div className="header_logo"><WebPimg src="assets/images/logo.png" alt="logo" webpsrc="assets/images/webp/logo.webp" /></div>
-                    <div className="heamburger">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <nav>
-        <ul>
-          <li className="mob_nav_link"><a href="https://www.wisitech.com/">Home</a></li>  
-          <li><a href="https://www.wisitech.com/web-consultancy-services/">it consulting</a></li>
-          <li><a href="https://www.wisitech.com/ux-ui-design-services/">UX/Ui Design</a></li>
-          <li className="menu_arrow"><a href="https://www.wisitech.com/web-development/">development</a>
-            <i className="fa fa-angle-down" />
-            <ul className="submenu">                                            
-              <li className="sub_menu_arrow"><a href="https://www.wisitech.com/mobile-apps/">mobile app development</a>
-                <i className="fa fa-angle-right" />
-                <ul className="sub_sub_menu">
-                  <li><a href="https://www.wisitech.com/mobile-apps/android-app-development/">Android App Development</a></li>
-                  <li><a href="https://www.wisitech.com/mobile-apps/iphone-app-development-services/">iphone App Development</a></li>
-                  <li><a href="https://www.wisitech.com/flutter-app-development/">Flutter App Development</a></li>
-                  <li><a href="https://www.wisitech.com/app-usability-testing-services/">App Usability Testing</a></li>
-                </ul>
-              </li>
-              <li className="sub_menu_arrow"><a href="https://www.wisitech.com/ecommerce-web-design-development-company/">Ecommerce Development</a>
-                <i className="fa fa-angle-right" />
-                <ul className="sub_sub_menu">
-                  <li><a href="https://www.wisitech.com/ecommerce-web-design-development-company/">Ecommerce Solutions</a></li>
-                  <li><a href="https://www.wisitech.com/ecommerce-solutions/artificial-intelligence/">Artificial Intelligence</a></li>
-                  <li><a href="https://www.wisitech.com/ecommerce-solutions/woocommerce-development/">WooCommerce Development</a></li>
-                  <li><a href="https://www.wisitech.com/ecommerce-solutions/cs-cart-development/">CS-Cart Development</a></li>
-                  <li><a href="https://www.wisitech.com/ecommerce-solutions/shopify-development/">Shopify Development</a></li>
-                  <li><a href="https://www.wisitech.com/ecommerce-solutions/bigcommerce-development-company/">BigCommerce Development</a></li>
-                  <li><a href="https://www.wisitech.com/ecommerce-solutions/magento-development/">Magento Development</a></li>
-                  <li><a href="https://www.wisitech.com/ecommerce-solutions/magento-upgrade-services/">Magento Upgrade Services</a></li>                               
-                </ul>
-              </li>   
-              <li className="sub_menu_arrow"><a href="https://www.wisitech.com/web-development/">Web Development</a>
-                <i className="fa fa-angle-right" />
-                <ul className="sub_sub_menu">
-                  <li><a href="https://www.wisitech.com/web-development/">Web Development Services </a></li>
-                  <li><a href="https://www.wisitech.com/mean-stack-developers/">MEAN Stack Development</a></li>
-                  <li><a href="https://www.wisitech.com/angular-js-developers/">Angular JS Development</a></li>
-                  <li><a href="https://www.wisitech.com/web-development/laravel-development/">Laravel Development</a></li>
-                  <li><a href="https://www.wisitech.com/web-development/wordpress-web-design-development/">WordPress Development</a></li>                                                          
-                </ul>
-              </li>
-              <li><a href="https://www.wisitech.com/web-development/website-packages/">website packages</a></li>
-              <li><a href="https://www.wisitech.com/web-development/kindle/">kindle publishing services</a></li> 
-              <li><a href="https://www.wisitech.com/psd-to-html-responsive/">PSD to HTML Responsive</a></li>                                 
-            </ul>{/* submenu */}
-          </li>
-          <li className="menu_arrow"><a href="https://www.wisitech.com/digital-marketing/">digital marketing</a>
-            <i className="fa fa-angle-down" />
-            <ul className="submenu">                                            
-              <li className="sub_menu_arrow"><a href="https://www.wisitech.com/web-marketing/">Web Marketing</a>
-                <i className="fa fa-angle-right" />
-                <ul className="sub_sub_menu">
-                  <li><a href="https://www.wisitech.com/web-marketing/">Digital Marketing Services</a></li>
-                  <li><a href="https://www.wisitech.com/web-marketing/search-engine-optimization-services/">SEO Services</a></li>
-                  <li><a href="https://www.wisitech.com/web-marketing/seo-packages/">SEO/SMO Packages</a></li>
-                  <li><a href="https://www.wisitech.com/web-marketing/social-media-services/">Social Media Marketing</a></li>
-                  <li><a href="https://www.wisitech.com/web-marketing/ppc-management/">Google AdWords Management</a></li>
-                  <li><a href="https://www.wisitech.com/web-marketing/bad-link-removal-services/">Bad Link Removal Services</a></li>
-                  <li><a href="https://www.wisitech.com/web-marketing/google-penalty-recovery-services/">Google Penalty Recovery Services</a></li>
-                </ul>
-              </li>
-              <li className="sub_menu_arrow"><a href="https://www.wisitech.com/web-marketing/amazon-seo-ppc-services/">Amazon, Etsy, eBay, Walmart Marketing</a>
-                <i className="fa fa-angle-right" />
-                <ul className="sub_sub_menu">
-                  <li><a href="https://www.wisitech.com/web-marketing/amazon-seo-ppc-services/">Amazon Marketing Services</a></li>
-                  <li><a href="https://www.wisitech.com/web-marketing/etsy-seo-services/">Etsy Marketing Services</a></li>
-                  <li><a href="https://www.wisitech.com/web-marketing/ebay-seo-services/">eBay Marketing Services</a></li>
-                  <li><a href="https://www.wisitech.com/walmart-marketing-services/">Walmart Marketing Services</a></li>                                                         
-                </ul>
-              </li>   
-              <li><a href="https://www.wisitech.com/app-store-optimization-services/">App Store Optimization</a></li>
-              <li><a href="https://www.wisitech.com/web-marketing/conversion-rate-optimization/">Conversion Rate Optimization</a></li>
-              <li className="sub_menu_arrow"><a href="https://www.wisitech.com/content-development/">Content Development</a>
-                <i className="fa fa-angle-right" />
-                <ul className="sub_sub_menu">
-                  <li><a href="https://www.wisitech.com/content-development/">SEO Copywriting</a></li>
-                  <li><a href="https://www.wisitech.com/content-development/sales-letters-business-writing/">Business Writing &amp; Sales</a></li>                                                                                           
-                </ul>
-              </li>
-              <li><a href="https://www.wisitech.com/web-marketing/affiliate-marketing-services/">Affiliate Marketing</a></li>
-              <li><a href="https://www.wisitech.com/facebook-advertising-services-agency/">Facebook Ads</a></li>   
-              <li><a href="https://www.wisitech.com/linkedin-ads-marketing-services/">LinkedIn Ads</a></li>                                   
-            </ul>{/* submenu */}
-          </li>
-          <li className="menu_arrow"><a href="https://www.wisitech.com/portfolio/">portfolio</a>
-            <i className="fa fa-angle-down" />
-            <ul className="submenu">
-              <li><a href="https://www.wisitech.com/portfolio/?work=ecommerce-sites">ecommerce sites</a></li>
-              <li><a href="https://www.wisitech.com/portfolio/?work=web-apps">web apps</a></li>
-              <li><a href="https://www.wisitech.com/portfolio/?work=mobile-apps">mobile apps</a></li>
-              <li><a href="https://www.wisitech.com/portfolio/?work=wordpress-sites">wordpress sites</a></li>
-              <li><a href="https://www.wisitech.com/portfolio/?work=corporate-sites">corporate sites</a></li>
-              <li className="sub_menu_arrow"><a href="https://www.wisitech.com/portfolio/?work=digital-marketing">digital marketing</a>
-                <i className="fa fa-angle-right" />
-                <ul className="sub_sub_menu">
-                  <li><a href="https://www.wisitech.com/portfolio/?work=digital-marketing-seo">seo</a></li>
-                  <li><a href="https://www.wisitech.com/portfolio/?work=digital-marketing-google-ads">google ads</a></li>
-                  <li><a href="https://www.wisitech.com/portfolio/?work=digital-marketing-social-media">social media</a></li>
-                  <li><a href="https://www.wisitech.com/portfolio/?work=digital-marketing-amazon">amazon</a></li>
-                  <li><a href="https://www.wisitech.com/portfolio/?work=digital-marketing-etsy">etsy</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li className="menu_arrow"><a href="https://www.wisitech.com/about-us">about</a>
-            <i className="fa fa-angle-down" />
-            <ul className="submenu">
-              <li><a href="https://www.wisitech.com/web-design-web-development-company/">profile</a></li>
-              <li><a href="https://www.wisitech.com/web-design-web-development-company/clients/">clients</a></li>
-              <li><a href="https://www.wisitech.com/web-design-web-development-company/testimonials/">testimonials</a></li>
-              <li><a href="https://www.wisitech.com/blog/">blog</a></li>
-            </ul>
-          </li>   
-          <li className="mob_nav_link"><a href="https://www.wisitech.com/rfq-web-solutions/">GET A PROPOSAL</a></li>                                                           
-        </ul>
-      </nav>{/* nav */}
-                    <div className="head_cont">
-                        <div className="get_purposal"><a className="common_btn" href="#">GET A PROPOSAL</a></div>
-                        <div className="head_phone"><a href="tel:888.680.0174"><i className="fa fa-phone-volume" /> 888.680.0174</a></div>
-                    </div>{/* head_cont */}
-                    </div>{/* header_row */}
-                </div>{/* header_wrapper */}
-                </header>{/* header */}
-                <div className="home_banner">
-                <div className="home_banner_row">
+            
+          <Header />
+
+          <div className="home_banner">
+            <div className="home_banner_row">
 
                 <Slider {...settings_home}>
                     <>
