@@ -1,5 +1,4 @@
 import './App.css';
-import $ from 'jquery';
 import Index from './pages/Index';
 
 
