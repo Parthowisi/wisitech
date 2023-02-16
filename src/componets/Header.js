@@ -33,15 +33,15 @@ const Header = () => {
                             /> : <><span /><span /><span /></>}
                     </div>
 
-                    <nav>
+                    <nav className={isMenu === true ? "mobile_open" : "v" }>
                         <ul>
                             { menus.map((item, index) => <Menuitem key={index} item={item} />) }
                         </ul>
                     </nav>
 
-                    <nav className={isMenu === true ? "sidebar mobile_open" : "sidebar hide_nav" }>
+                    {/* <nav className={isMenu === true ? "sidebar mobile_open" : "sidebar hide_nav" }>
                         { menus.map((item, index) => <Menuitemmobile key={index} item={item} />) }
-                    </nav>
+                    </nav> */}
 
                     
                     

@@ -76,7 +76,7 @@
 
 .sidebar{
   width: 100%;
-  padding-top: 30px;
+  padding: 1em;
   flex-shrink: 0;
   height: 100%;
   overflow: auto;
@@ -84,7 +84,7 @@
 
 
 .sidebar-item{
-  padding: .75em 1em;
+  padding: 0.3em;
   display: block;
   transition: background-color .15s;
   border-radius: 5px;

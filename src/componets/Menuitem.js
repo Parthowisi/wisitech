@@ -2,7 +2,15 @@ import { useState } from "react";
 import { FiChevronDown } from 'react-icons/fi'
 
 function Menuitem({item}){
-    const [open, setOpen] = useState(false)
+    const [open, setOpen] = useState(false);
+
+    var iClass = item.level ==1 ? 'fa fa-angle-right' : 'fa fa-angle-down';
+    var subMenuClass = item.level ==1 ? 'sub_sub_menu' : 'submenu';
+    var menuActive = item.level ==1 ? 'submenu_active' : 'menu_active';
+    if(open){
+        iClass = `${iClass} ${menuActive}`;
+        subMenuClass = `${subMenuClass} show`;
+    }
 
     if(!item.hide){
         
@@ -11,9 +19,9 @@ function Menuitem({item}){
                 <li className={item.level==1 ? "sub_menu_arrow" : "menu_arrow"}>
                     <a href={item.path || "#"}>{item.title}</a>
                     
-                    {item.level==1 ? <i className="fa fa-angle-right" /> : <i className="fa fa-angle-down" />}
+                    <i className={iClass} onClick={() => setOpen(!open)} />
                     
-                    <ul className={item.level==1 ? "sub_sub_menu" : "submenu"}>
+                    <ul className={subMenuClass} style={{ display: open ? 'block' : 'none' }}>
                         { item.childrens.map((child, index) => <Menuitem key={index} item={child} />) }
                     </ul>
                 </li>
