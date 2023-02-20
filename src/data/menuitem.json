@@ -327,7 +327,7 @@
     },
     {
         "title": "about",
-        "path": "https://www.wisitech.com/about-us",
+        "path": "/about-us",
         "level": 0,
         "childrens": [
             {

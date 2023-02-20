@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { NavLink } from 'react-router-dom'
 
 function Menuitem({item}){
     const [open, setOpen] = useState(false);
@@ -16,7 +17,7 @@ function Menuitem({item}){
     if(item.childrens){
         return (
             <li className={liClass}>
-                <a href={item.path || "#"}>{item.title}</a>
+                <NavLink to={item.path || "#"}>{item.title}</NavLink>
                 <i className={iClass} onClick={() => setOpen(!open)} />
                 
                 <ul className={subMenuClass} style={{ display: open ? 'block' : '' }}>
@@ -26,7 +27,7 @@ function Menuitem({item}){
         )
     }else{
         return (
-            <li className={item.class || ""}><a href={item.path || "#"}>{item.title}</a></li>
+            <li className={item.class || ""}><NavLink to={item.path || "#"}>{item.title}</NavLink></li>
         )
     }
 }

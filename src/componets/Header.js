@@ -1,21 +1,24 @@
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom'
 import WebPimg from './Webpimg';
 import { MdPhoneInTalk } from 'react-icons/md';
 import { TfiClose } from 'react-icons/tfi';
 import Menuitem from "./Menuitem";
 import menus from "../data/menuitem.json";
 
-const Header = () => {
+const Header = ({mystyle=null}) => {
 
     const [isMenu, setisMenu] = useState(false);
 
     return (
         <>
-        <header>
+        <header style={mystyle}>
             <div className="header_wrapper">
                 <div className="header_row">
                     <div className="header_logo">
+                        <NavLink to="/">  
                         <WebPimg src="assets/images/logo.png" alt="logo" webpsrc="assets/images/webp/logo.webp" />
+                        </NavLink>  
                     </div>
                     <div className="heamburger" onClick={() => setisMenu(!isMenu)}>
                         {isMenu===true ?

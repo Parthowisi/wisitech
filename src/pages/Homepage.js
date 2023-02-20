@@ -5,7 +5,7 @@ import Footer from '../componets/Footer';
 import BannerSlider from '../componets/Bannerslider';
 
 
-function Index(){
+function Homepage(){
     return(
         <Fragment>
             
@@ -297,4 +297,4 @@ function Index(){
     )
 }
 
-export default Index;
+export default Homepage;
