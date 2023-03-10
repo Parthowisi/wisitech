@@ -1,18 +1,12 @@
 import React, { Fragment } from 'react';
-import WebPimg from '../componets/Webpimg';
-import Header from '../componets/Header';
-import Footer from '../componets/Footer';
+import WebPimg from '../componets/Webpimg'
 
 
 function Aboutus(){
-    const mystyle = {
-        backgroundColor: "black"
-    };
 
     return(
         <Fragment>
 
-            <Header mystyle={mystyle} />
          
                 <div className="outer_wrapper" style={{marginTop: "70px"}}>
                 <div className="heading">ABOUT US</div>
@@ -121,7 +115,6 @@ function Aboutus(){
                 </div>{/* whyus_client */}
                 </div>{/* whyus_section */}
 
-            <Footer />
             
         </Fragment>
     )

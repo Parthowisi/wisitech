@@ -1,15 +1,11 @@
-import React, { Fragment } from 'react';
-import WebPimg from '../componets/Webpimg';
-import Header from '../componets/Header';
-import Footer from '../componets/Footer';
-import BannerSlider from '../componets/Bannerslider';
+import React, { Fragment } from 'react'
+import WebPimg from '../componets/Webpimg'
+import BannerSlider from '../componets/Bannerslider'
 
 
 function Homepage(){
     return(
         <Fragment>
-            
-            <Header />
 
             <BannerSlider />
          
@@ -291,7 +287,6 @@ function Homepage(){
                 </div>{/* google_ads_section */}
                 </div>{/* outer_wrapper */}
 
-            <Footer />
             
         </Fragment>
     )
